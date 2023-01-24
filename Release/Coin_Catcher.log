@@ -1,0 +1,48 @@
+﻿  Bomb.cpp
+  Catcher.cpp
+D:\github\repo\Coin-Catcher\include\gltext\gltext.h(300,29): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+  Coin.cpp
+  EBO.cpp
+  Game.cpp
+D:\github\repo\Coin-Catcher\include\gltext\gltext.h(300,29): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+  Main.cpp
+D:\github\repo\Coin-Catcher\include\gltext\gltext.h(300,29): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\github\repo\Coin-Catcher\Main.cpp(27,12): warning C4244: '引數': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+  MV_OBJ.cpp
+  Obj.cpp
+D:\github\repo\Coin-Catcher\Obj.cpp(23,24): warning C4267: 'return': 將 'size_t' 轉換為 'int'，資料可能遺失
+  Shader.cpp
+  SpriteManager.cpp
+D:\github\repo\Coin-Catcher\include\gltext\gltext.h(300,29): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\github\repo\Coin-Catcher\SpriteManager.cpp(190,72): warning C4267: '引數': 將 'size_t' 轉換為 'GLsizei'，資料可能遺失
+D:\github\repo\Coin-Catcher\SpriteManager.cpp(198,72): warning C4267: '引數': 將 'size_t' 轉換為 'GLsizei'，資料可能遺失
+D:\github\repo\Coin-Catcher\SpriteManager.cpp(211,74): warning C4267: '引數': 將 'size_t' 轉換為 'GLsizei'，資料可能遺失
+  stb.cpp
+  Texture.cpp
+  Thrower.cpp
+D:\github\repo\Coin-Catcher\include\gltext\gltext.h(300,29): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+  VAO.cpp
+D:\github\repo\Coin-Catcher\VAO.cpp(15,63): warning C4244: '引數': 將 'GLsizeiptr' 轉換為 'GLsizei'，由於類型不同，可能導致資料遺失
+  VBO.cpp
+  glad.c
+  Previous IPDB not found, fall back to full compilation.
+LINK : warning LNK4098: 預設的程式庫 'MSVCRTD' 與其他使用的程式庫衝突，請使用 /NODEFAULTLIB:library
+  正在產生程式碼
+  All 689 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成程式碼產生
+glfw3.lib(input.obj) : warning LNK4099: 找不到 PDB 'glfw3.pdb' (有 'glfw3.lib(input.obj)' 或位於 'D:\github\repo\Coin-Catcher\Release\glfw3.pdb')，當做沒有偵錯資訊，連結物件
+glfw3.lib(context.obj) : warning LNK4099: 找不到 PDB 'glfw3.pdb' (有 'glfw3.lib(context.obj)' 或位於 'D:\github\repo\Coin-Catcher\Release\glfw3.pdb')，當做沒有偵錯資訊，連結物件
+glfw3.lib(init.obj) : warning LNK4099: 找不到 PDB 'glfw3.pdb' (有 'glfw3.lib(init.obj)' 或位於 'D:\github\repo\Coin-Catcher\Release\glfw3.pdb')，當做沒有偵錯資訊，連結物件
+glfw3.lib(window.obj) : warning LNK4099: 找不到 PDB 'glfw3.pdb' (有 'glfw3.lib(window.obj)' 或位於 'D:\github\repo\Coin-Catcher\Release\glfw3.pdb')，當做沒有偵錯資訊，連結物件
+glfw3.lib(win32_window.obj) : warning LNK4099: 找不到 PDB 'glfw3.pdb' (有 'glfw3.lib(win32_window.obj)' 或位於 'D:\github\repo\Coin-Catcher\Release\glfw3.pdb')，當做沒有偵錯資訊，連結物件
+glfw3.lib(win32_joystick.obj) : warning LNK4099: 找不到 PDB 'glfw3.pdb' (有 'glfw3.lib(win32_joystick.obj)' 或位於 'D:\github\repo\Coin-Catcher\Release\glfw3.pdb')，當做沒有偵錯資訊，連結物件
+glfw3.lib(win32_time.obj) : warning LNK4099: 找不到 PDB 'glfw3.pdb' (有 'glfw3.lib(win32_time.obj)' 或位於 'D:\github\repo\Coin-Catcher\Release\glfw3.pdb')，當做沒有偵錯資訊，連結物件
+glfw3.lib(win32_thread.obj) : warning LNK4099: 找不到 PDB 'glfw3.pdb' (有 'glfw3.lib(win32_thread.obj)' 或位於 'D:\github\repo\Coin-Catcher\Release\glfw3.pdb')，當做沒有偵錯資訊，連結物件
+glfw3.lib(win32_init.obj) : warning LNK4099: 找不到 PDB 'glfw3.pdb' (有 'glfw3.lib(win32_init.obj)' 或位於 'D:\github\repo\Coin-Catcher\Release\glfw3.pdb')，當做沒有偵錯資訊，連結物件
+glfw3.lib(win32_monitor.obj) : warning LNK4099: 找不到 PDB 'glfw3.pdb' (有 'glfw3.lib(win32_monitor.obj)' 或位於 'D:\github\repo\Coin-Catcher\Release\glfw3.pdb')，當做沒有偵錯資訊，連結物件
+glfw3.lib(monitor.obj) : warning LNK4099: 找不到 PDB 'glfw3.pdb' (有 'glfw3.lib(monitor.obj)' 或位於 'D:\github\repo\Coin-Catcher\Release\glfw3.pdb')，當做沒有偵錯資訊，連結物件
+glfw3.lib(vulkan.obj) : warning LNK4099: 找不到 PDB 'glfw3.pdb' (有 'glfw3.lib(vulkan.obj)' 或位於 'D:\github\repo\Coin-Catcher\Release\glfw3.pdb')，當做沒有偵錯資訊，連結物件
+glfw3.lib(wgl_context.obj) : warning LNK4099: 找不到 PDB 'glfw3.pdb' (有 'glfw3.lib(wgl_context.obj)' 或位於 'D:\github\repo\Coin-Catcher\Release\glfw3.pdb')，當做沒有偵錯資訊，連結物件
+glfw3.lib(egl_context.obj) : warning LNK4099: 找不到 PDB 'glfw3.pdb' (有 'glfw3.lib(egl_context.obj)' 或位於 'D:\github\repo\Coin-Catcher\Release\glfw3.pdb')，當做沒有偵錯資訊，連結物件
+glfw3.lib(osmesa_context.obj) : warning LNK4099: 找不到 PDB 'glfw3.pdb' (有 'glfw3.lib(osmesa_context.obj)' 或位於 'D:\github\repo\Coin-Catcher\Release\glfw3.pdb')，當做沒有偵錯資訊，連結物件
+  Coin_Catcher.vcxproj -> D:\github\repo\Coin-Catcher\Release\Coin_Catcher.exe
