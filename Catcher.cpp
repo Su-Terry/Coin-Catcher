@@ -28,17 +28,17 @@ Catcher::Catcher(
 ) : MV_OBJ(pos_, direction_, speed_, vao_) {}
 
 void Catcher::InitTextures(Shader& shader) {
-	Texture tex1("popcat_idle.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
-	tex1.texUnit(shader, "popcat_idle.png", 0);
+	Texture tex1("assets/popcat_idle.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
+	tex1.texUnit(shader, "assets/popcat_idle.png", 0);
 	AddTexture(tex1);
 	
-	Texture tex2("popcat_eat.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
-	tex2.texUnit(shader, "popcat_eat.png", 0);
+	Texture tex2("assets/popcat_eat.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
+	tex2.texUnit(shader, "assets/popcat_eat.png", 0);
 	AddTexture(tex2);
 	SetCrntTexture(1);
 	
-	Texture tex3("popcat_dead.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
-	tex3.texUnit(shader, "popcat_dead.png", 0);
+	Texture tex3("assets/popcat_dead.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
+	tex3.texUnit(shader, "assets/popcat_dead.png", 0);
 	AddTexture(tex3);
 }
 

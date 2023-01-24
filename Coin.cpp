@@ -14,24 +14,24 @@ void Coin::InitTextures(Shader& shader) {
 	switch (id) {
 	case 0:
 	{
-		Texture tex1("chicken_meat.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
-		tex1.texUnit(shader, "chicken_meat.png", 0);
+		Texture tex1("assets/chicken_meat.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
+		tex1.texUnit(shader, "assets/chicken_meat.png", 0);
 		AddTexture(tex1);
 		score = 10;
 	}
 		break;
 	case 1:
 	{
-		Texture tex2("lamp.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
-		tex2.texUnit(shader, "lamp.png", 0);
+		Texture tex2("assets/lamp.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
+		tex2.texUnit(shader, "assets/lamp.png", 0);
 		AddTexture(tex2);
 		score = 3;
 	}
 		break;
 	case 2:
 	{
-		Texture tex3("hamberger.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
-		tex3.texUnit(shader, "hamberger.png", 0);
+		Texture tex3("assets/hamberger.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
+		tex3.texUnit(shader, "assets/hamberger.png", 0);
 		AddTexture(tex3);
 		score = 6;
 	}

@@ -11,8 +11,8 @@ Thrower::Thrower(
 ) : MV_OBJ(pos_, direction_, speed_, vao_) {}
 
 void Thrower::InitTextures(Shader& shader) {
-	Texture tex("dchusky.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
-	tex.texUnit(shader, "dchusky.png", 0);
+	Texture tex("assets/dchusky.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
+	tex.texUnit(shader, "assets/dchusky.png", 0);
 	AddTexture(tex);
 	SetCrntTexture(0);
 }

@@ -31,8 +31,8 @@ void SpriteManager::AddBackground()
 	vbo.Unbind();
 	ebo.Unbind();
 
-	Texture tex("desert.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
-	tex.texUnit(shader, "desert.png", 0);
+	Texture tex("assets/desert.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
+	tex.texUnit(shader, "assets/desert.png", 0);
 
 	background = new Obj(vao);
 	background->AddTexture(tex);

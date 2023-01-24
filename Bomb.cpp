@@ -11,12 +11,12 @@ Bomb::Bomb(
 
 void Bomb::InitTextures(Shader& shader)
 {
-	Texture tex1("bomb.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
-	tex1.texUnit(shader, "bomb.png", 0);
+	Texture tex1("assets/bomb.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
+	tex1.texUnit(shader, "assets/bomb.png", 0);
 	AddTexture(tex1);
 
-	Texture tex2("bombbomb.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
-	tex2.texUnit(shader, "bombbomb.png", 0);
+	Texture tex2("assets/bombbomb.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
+	tex2.texUnit(shader, "assets/bombbomb.png", 0);
 	AddTexture(tex2);
 
 	SetCrntTexture(0);
