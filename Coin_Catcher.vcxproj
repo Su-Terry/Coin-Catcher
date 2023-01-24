@@ -123,8 +123,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <ExternalIncludePath>D:\programming\C++\OpenGL\Libraries\include;$(ExternalIncludePath)</ExternalIncludePath>
-    <LibraryPath>D:\programming\C++\OpenGL\Libraries\lib;$(LibraryPath)</LibraryPath>
+    <ExternalIncludePath>include;$(ExternalIncludePath)</ExternalIncludePath>
+    <LibraryPath>lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -133,8 +133,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <ExternalIncludePath>D:\programming\C++\OpenGL\Libraries\include;$(ExternalIncludePath)</ExternalIncludePath>
-    <LibraryPath>D:\programming\C++\OpenGL\Libraries\lib;$(LibraryPath)</LibraryPath>
+    <ExternalIncludePath>include;$(ExternalIncludePath)</ExternalIncludePath>
+    <LibraryPath>lib;$(LibraryPath)</LibraryPath>
     <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
     <IntDir>$(Configuration)\</IntDir>
   </PropertyGroup>
